@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
 toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
 })
-=======
 
  const nssfContribution = 1080;
  const personalRelief = 2400;
@@ -68,4 +66,3 @@ document.getElementById('netpay').value = 'Ksh '+ netPay;
 
 }
  
->>>>>>> refs/remotes/origin/main
