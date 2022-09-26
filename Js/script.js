@@ -5,10 +5,10 @@ toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
 })
 
- const nssfContribution = 1080;
- const personalRelief = 2400;
- const insurance = 210;
- const nhif = 1400;
+const nssfContribution = 1080;
+const personalRelief = 2400;
+const insurance = 210;
+const nhif = 1400;
 
 
 
@@ -24,7 +24,7 @@ function calculate (){
         document.getElementById('insurance').value= 'Ksh '+ insurance;
         document.getElementById('nhif-contribution').value= 'Ksh '+ nhif;
         let taxAmount;
-       
+        
         // function calculates the tax amount using KRA rates.
         function calculateTaxAmount(){
             if(taxableIncome<=24000){
@@ -48,7 +48,7 @@ function calculate (){
 
 calculateTaxAmount();
 
- 
+
 document.getElementById('tax-before-relief').value = 'Ksh ' + taxAmount;
 
 //PAYE is calculated after subtracting all reliefs(personal and insurance) from the tax amount.
@@ -65,4 +65,5 @@ document.getElementById('netpay').value = 'Ksh '+ netPay;
 
 
 }
- 
+
+
