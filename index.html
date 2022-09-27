@@ -28,31 +28,42 @@
             </ul>
         </div>
     </nav>
-    <!-- Form section-->
 
+    <!-- Form section-->
     <section class="tax-section">
         <h2>Enter Your Gross Salary And Your Tax Is Calculated</h2>
         <div class="salary-form">
         <input type="number" placeholder="Enter Your Gross Salary" id="gross-salary">
-        <button onclick="calculate()" >Calculate</button>
         </div>
         <div class="breakdown">
-           <div class="breakdown-info">
-           <div class="info"> <p>Net Pay: </p><input type="text" id="netpay"></div>
-           <div class="info"> <p>NSSF Contribution: </p><input id="nssf-contribution" type="text"></div>
-           <div class="info"> <p>Taxable Income: </p><input id="taxable-income" type="text"></div>
-           <div class="info"> <p>Tax Before Relief:</p><input id="tax-before-relief" type="text"></div>
-           <div class="info"> <p>Personal Relief: </p><input id="personal-relief" type="text" ></div>
-           <div class="info"> <p>Insurance/NHIF Relief: </p><input  id="insurance" type="text"></div>
-           <div class="info"> <p>PAYE: </p><input  id="paye" type="text"></div>
-           <div class="info"> <p>NHIF Contribution:</p><input id="nhif-contribution" type="text"></div>
+            <div class="breakdown-info">
+            <div class="info"> <p>Net Pay: </p><input type="text" id="netpay"></div>
+            <div class="info"> <p>NSSF Contribution: </p><input id="nssf-contribution" type="text"></div>
+            <div class="info"> <p>Taxable Income: </p><input id="taxable-income" type="text"></div>
+            <div class="info"> <p>Tax Before Relief:</p><input id="tax-before-relief" type="text"></div>
+            <div class="info"> <p>Personal Relief: </p><input id="personal-relief" type="text" ></div>
+            <div class="info"> <p>Insurance/NHIF Relief: </p><input  id="insurance" type="text"></div>
+            <div class="info"> <p>PAYE: </p><input  id="paye" type="text"></div>
+            <div class="info"> <p>NHIF Contribution:</p><input id="nhif-contribution" type="text"></div>
+            <button onclick="calculate()" >Calculate</button>
         </div>
     </section>
 
     <!-- Bill Manager -->
     <section>
         <div>
-
+            <h2>Enter Your Net Salary</h2>
+            <div class="bill-form">
+                <input type="number" placeholder="Net Salary" id="Net salary">
+            </div>
+            <div class="entries">
+                <p>Rent :</p> <input type="text" id="rent">
+                <p>Entertainment :</p> <input type="text" id="entertainment">
+                <p>Shopping :</p> <input type="text" id="shopping">
+                <p>Food :</p> <input type="text" id="food">
+                <p aria-placeholder="Any Other"></p> <input type="text" id="any-other">
+            </div>
+            <button onclick="calculate()" class="btn-calc">Calculate</button>
         </div>
     </section>
 
@@ -71,9 +82,9 @@
         <p>Tax Calculation</p>
     <div class="social">
         <a href="https://github.com/MuneneCalvin"><i class="fab fa-github"aria-hidden="true" ></i></a>
-        <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
     </div>
-        <p class="end">Copyright &copy; 2022 @ Natujenge </p>
+        <p class="end">Copyright &copy; 2022 @ Powered By Natujenge </p>
     </footer>
 </body>
 </html>
